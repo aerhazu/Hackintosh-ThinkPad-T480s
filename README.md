@@ -50,12 +50,12 @@ Hackintosh build by [aerhazu](https://github.com/aerhazu). Credits to [felikafel
 ## 📀 Select your macOS Guide
 Select your desired macOS version below to see their guide.
 
-### 1. [Sequoia](https://github.com/aerhazu/Hackintosh-ThinkPad-T480s/Docs/Sequoia-Guide.md) (15.7.x)
-SMBIOS: `MacBookPro16,3`
+### 1. [Sequoia](https://github.com/aerhazu/Hackintosh-ThinkPad-T480s/blob/main/Docs/Sequoia-Guide.md) (15.7.x)
+- SMBIOS: `MacBookPro16,3`
 Most performant & efficient macOS for Hackintosh systems. Highly recommended as a daily driver. Mature OpenCore integration with long-term community support.
 
-### 2. [Tahoe](https://github.com/aerhazu/Hackintosh-ThinkPad-T480s/Docs/Tahoe-Guide.md) (26.5.x)
-SMBIOS: `MacBookPro16,4`
+### 2. [Tahoe](https://github.com/aerhazu/Hackintosh-ThinkPad-T480s/blob/main/Docs/Tahoe-Guide.md) (26.5.x)
+- SMBIOS: `MacBookPro16,4`
 [Last](https://www.reddit.com/r/hackintosh/comments/1l7dc62/next_stop_macos_26_tahoe/) & latest macOS available for Hackintosh systems. Recommended for users with a stable Sequoia build. Upgrade only if required by your workflow or if you intend to maintain a current EFI or you simply just want to.
 
 ---
