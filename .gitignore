@@ -1,28 +1,133 @@
-# Angular specific
-/dist/
-/out-tsc/
-/tmp/
-/coverage/
-/e2e/test-output/
-/.angular/
-.angular/
+# ============================================
+# Hackintosh .gitignore
+# MADE BY © 2026 aerhazu (GitHub)
+# ============================================
 
-# Node modules and dependency files
-/node_modules/
-/package-lock.json
-/yarn.lock
+# ====================
+# macOS System Files
+# ====================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.TemporaryItems
+.fseventsd
+.VolumeIcon.icns
+.AppleDouble
+.LSOverride
+ehthumbs.db
+Thumbs.db
 
-# Environment files
-/.env
+# ====================
+# Personal SMBIOS Data (KEEP PRIVATE!)
+# Please never commit your real serial numbers / UUIDs
+# ====================
+*serial*.txt
+*uuid*.txt
+SMBIOS-*.plist
+config-personal.plist
+my-smbios.plist
+serials.txt
+smbios.txt
+nvram.plist
+config-backup.plist
 
-# Angular CLI and build artefacts
-/.angular-cli.json
-/.ng/
+# ====================
+# Backup Files
+# ====================
+*.backup
+*.bak
+*.old
+*.orig
+config.plist.backup
+config.plist.bak
 
-# TypeScript cache
-*.tsbuildinfo
+# ====================
+# Log Files
+# ====================
+*.log
+*.txt
+debug.log
+boot.log
+opencore-*.txt
+oc-*.log
+logs/
+debug/
 
-# Logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# ====================
+# OpenCore Debug Files
+# ====================
+DEBUG/
+LOGS/
+.opencore_debug
+SysReport/
+EFI/OC/Logs/
+EFI/OC/SysReport/
+
+# ====================
+# Temporary / Cache Files
+# ====================
+*.tmp
+*.temp
+.cache/
+temp/
+Tools/tmp/
+Tools/cache/
+
+# ====================
+# IDE / Editor Files
+# ====================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ====================
+# Build Artifacts (Xcode / Kext Dev)
+# ====================
+*.o
+*.dSYM/
+build/
+DerivedData/
+__pycache__/
+*.pyc
+
+# ====================
+# Node (if documentation site)
+# ====================
+node_modules/
+
+# ====================
+# Compressed Files (Optional)
+# ====================
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# ====================
+# Personal Notes / Docs (Optional)
+# ====================
+notes.md
+personal-*.md
+TODO.txt
+
+# ====================
+# EFI Backup Folders (Optional)
+# ====================
+EFI-Backup*/
+EFI-Old*/
+OLD-EFI/
+EFIs/Sequoia/INSTALL/
+EFIs/Sequoia/RELEASE
+
+# ====================
+# Keep These Files:
+# ====================
+# !EFI/
+# !Screenshots/
+# !README.md
+# !LICENSE
+# !config.plist (placeholder SMBIOS)
