@@ -121,7 +121,8 @@ EFI-Backup*/
 EFI-Old*/
 OLD-EFI/
 EFIs/Sequoia/INSTALL/
-EFIs/Sequoia/RELEASE
+EFIs/Sequoia/RELEASE/
+SysReport/
 
 # ====================
 # Keep These Files:
