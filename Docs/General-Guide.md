@@ -15,14 +15,14 @@ Hackintosh build by [aerhazu](https://github.com/aerhazu). Credits to [felikafel
 
 <p align="center">
 <a href="https://github.com/aerhazu/Hackintosh-ThinkPad-T480s">
-<img src="https://img.shields.io/badge/Sequioa%2015.7.7-%20?style=for-the-badge&logo=apple&label=MacOS&color=327566">
+<img src="https://img.shields.io/badge/Sequioa%2015.8.1-%20?style=for-the-badge&logo=apple&label=MacOS&color=327566">
 </a>
 </p>
 
 <p align="center">
 
 <a href="https://github.com/acidanthera/OpenCorePkg/releases/tag/1.0.7">
-<img src="https://img.shields.io/badge/1.0.7-%20?style=for-the-badge&logo=singlestore&logoColor=white&label=OpenCore&color=08b2c9">
+<img src="https://img.shields.io/badge/1.0.8-%20?style=for-the-badge&logo=singlestore&logoColor=white&label=OpenCore&color=08b2c9">
 </a>
 <a img src="https://img.shields.io/badge/Status-Stable-brightgreen?style=for-the-badge&logo=github">
 </a>
@@ -52,18 +52,19 @@ Get the latest EFI from [Releases](https://github.com/aerhazu/Hackintosh-ThinkPa
 
 ### 2. Generate SMBIOS
 Use [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS):
-- **Sequoia**: `MacBookPro16,3` (For best battery management)
+- **Sequoia**: `MacBookPro16,3`
+- **Tahoe**: `MacBookPro16,4` (For best battery management)
 
 ### 3. MacOS Download and Installation
 
 <details>
   
-<summary>Sequoia (Bootable Drive/.raw)</summary>
+<summary>Fresh install (Bootable Drive/.raw)</summary>
 
 #### 1. Prepare Installation Media
 
 1. **Prepare Your USB or NVMe Drive**  
-   A 16GB drive is recommended. Download Sequoia macOS image (.raw). You can check [Olarila](https://olarila.com/topic/6278-olarila-vanilla-images-macos-installer/) for your desired version.
+   A 16GB drive is recommended. Download Sequoia/Tahoe macOS image (.raw). You can check [Olarila](https://olarila.com/topic/6278-olarila-vanilla-images-macos-installer/) for your desired version.
 
 2. **Flash with Rufus**  
    - Open Rufus.  
@@ -98,7 +99,7 @@ Since the EFI partition is hidden in Windows, use diskpart to mount it and repla
    - Eject your drive.
 
 #### 3. Configure BIOS
-See (BIOS Settings)[#-bios-settings] section below.
+See [BIOS Settings](#-bios-settings) section below.
 
 #### 4. macOS Installation
 - Shutdown your PC.
@@ -124,6 +125,39 @@ See **[Post-Install Guide]()** for:
 - WiFi patching (AirportItlwm or itlwm)
 - Airdrop/Continuity fix for itlwm users
 - Etc...
+
+---
+
+## 🪛 BIOS Settings
+
+| Menu Path | Setting |
+|:----------|--------:|
+| Config > USB > Always On USB | **Disabled** |
+| Config > Keyboard/Mouse > Trackpoint | **Enabled** |
+| Config > Keyboard/Mouse > Trackpad | **Enabled** |
+| Config > Keyboard/Mouse > Fn and Ctrl Key swap | **Disabled** |
+| Config > Keyboard/Mouse > Fn Sticky Key | **Disabled** |
+| Config > Keyboard/Mouse > F1-F12 as Primary Function | **Disabled** |
+| Config > Display > Boot Display Device | **Thinkpad LCD** |
+| Config > Display > Shared Display Priority | **USB Type-C** |
+| Config > Display > Total Graphics Memory | **512MB** |
+| Config > Power > Intel SpeedStep Technology | **Enabled** |
+| Config > CPU > Intel Hyper-Threading Technology | **Enabled** |
+| Config > Thunderbolt 3 > Thunderbolt BIOS Assist Mode | **Enabled** |
+| Config > Thunderbolt 3 > Security Level | **No Security** |
+| Config > Thunderbolt 3 > Wake by Thunderbolt 3 | **Enabled** |
+| Config > Thunderbolt 3 > Support in Pre Boot Environment | **Enabled** |
+| Security > Security Chip | **Disabled** |
+| Security > Memory Protection > Execution Prevention | **Enabled** |
+| Security > Virtualization > Intel VT | **Enabled** |
+| Security > Virtualization > Intel VT-d | **Enabled** |
+| Security > I/O Port Access > Fingerprint Reader | **Disabled** |
+| Security > Secure Boot | **Disabled** |
+| Security > Intel SGX | **Software Controlled** |
+| Security > Device Guard | **Disabled** |
+| Boot > UEFI/Legacy Boot | **Both** |
+| Boot > UEFI/Legacy Boot Priority | **Legacy First** |
+| Boot > CSM Support | **Yes** |
 
 ---
 
