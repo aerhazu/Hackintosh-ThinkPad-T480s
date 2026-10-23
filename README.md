@@ -10,7 +10,7 @@ Hackintosh build by [aerhazu](https://github.com/aerhazu). Credits to [felikafel
 
 <p align="center">
 <a href="https://github.com/acidanthera/OpenCorePkg/releases/tag/1.0.7">
-<img src="https://img.shields.io/badge/1.0.7-%20?style=for-the-badge&logo=singlestore&logoColor=white&label=OpenCore&color=08b2c9">
+<img src="https://img.shields.io/badge/1.0.8-%20?style=for-the-badge&logo=singlestore&logoColor=white&label=OpenCore&color=08b2c9">
 </a>
 <img src="https://img.shields.io/badge/Status-Stable-brightgreen?style=for-the-badge&logo=github">
 </a>
@@ -19,7 +19,7 @@ Hackintosh build by [aerhazu](https://github.com/aerhazu). Credits to [felikafel
 <p align="center">
 
 <a href="https://github.com/aerhazu/Hackintosh-ThinkPad-T480s/Docs/Sequoia-Guide.md">
-<img src="https://img.shields.io/badge/Sequioa%2015.7.7-%20?style=for-the-badge&logo=apple&label=MacOS&color=327566">
+<img src="https://img.shields.io/badge/Sequioa%2015.8.1-%20?style=for-the-badge&logo=apple&label=MacOS&color=327566">
 </a>
 <a href="https://github.com/aerhazu/Hackintosh-ThinkPad-T480s/Docs/Tahoe-Guide.md">
 <img src="https://img.shields.io/badge/Tahoe%2026.5.1-%20?style=for-the-badge&logo=apple&label=MacOS&color=53a0f3">
@@ -47,14 +47,14 @@ Hackintosh build by [aerhazu](https://github.com/aerhazu). Credits to [felikafel
 
 ---
 
-## 📀 Select your macOS Guide
+## 📀 Select your macOS
 Select your desired macOS version below to see their guide.
 
-### 1. [Sequoia](https://github.com/aerhazu/Hackintosh-ThinkPad-T480s/blob/main/Docs/Sequoia-Guide.md) (15.7.x)
+### 1. [Sequoia](https://github.com/aerhazu/Hackintosh-ThinkPad-T480s/blob/main/Docs/General-Guide.md) (15.8.x)
 - SMBIOS: `MacBookPro16,3`
 Most performant & efficient macOS for Hackintosh systems. Highly recommended as a daily driver. Mature OpenCore integration with long-term community support.
 
-### 2. [Tahoe](https://github.com/aerhazu/Hackintosh-ThinkPad-T480s/blob/main/Docs/Tahoe-Guide.md) (26.5.x)
+### 2. [Tahoe](https://github.com/aerhazu/Hackintosh-ThinkPad-T480s/blob/main/Docs/General-Guide.md) (26.5.x)
 - SMBIOS: `MacBookPro16,4`
 [Last](https://www.reddit.com/r/hackintosh/comments/1l7dc62/next_stop_macos_26_tahoe/) & latest macOS available for Hackintosh systems. Recommended for users with a stable Sequoia build. Upgrade only if required by your workflow or if you intend to maintain a current EFI or you simply just want to.
 
@@ -195,15 +195,15 @@ Most performant & efficient macOS for Hackintosh systems. Highly recommended as 
 <details>
 <summary><b>Click to expand gallery</b></summary>
 
-### Desktop
-<p align="center"><img src="Assets/Sequoia/desktop_logo.png width="10%"></p>
-<p align="center"><img src="Assets/Tahoe/desktop_logo.png"></p>
+**Desktop**
+<p align="center"><img src="../Assets/Sequoia/desktop_logo.png width="10%"></p>
+<p align="center"><img src="../Assets/Tahoe/desktop_logo.png"></p>
 
-### Wifi
-<p align="center"><img src="Assets/Sequoia/wifi.png"></p>
+**Wifi**
+<p align="center"><img src="../Assets/Sequoia/wifi.png"></p>
 
-### Bluetooth
-<p align="center"><img src="Assets/Sequoia/bluetooth.png"></p>
+**Bluetooth**
+<p align="center"><img src="../Assets/Sequoia/bluetooth.png"></p>
 
 </details>
 
