@@ -169,6 +169,11 @@ Generate a custom power profile:
    - Prioritize Performance
 3. Add the generated kext to your EFI.
 
+
+**OR**
+
+Choose from the provided presets [here](https://github.com/aerhazu/Hackintosh-ThinkPad-T480s/tree/main/Presets/CPUFriend%20Presets). (All required kexts are already in the EFI)
+
 ---
 
 ## 📶 Wireless Setup
