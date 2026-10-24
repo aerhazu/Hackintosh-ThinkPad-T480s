@@ -166,7 +166,6 @@ Most performant & efficient macOS for Hackintosh systems. Highly recommended as 
 <details>
 <summary><b>🔍 Not Tested</b></summary>
 
-- Thunderbolt 3 (no device to test)
 - Card Reader (my T480s card reader is broken)
 - WWAN (no card installed)
 - Touchscreen
