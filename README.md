@@ -56,7 +56,7 @@ Most performant & efficient macOS for Hackintosh systems. Highly recommended as 
 
 ### 2. [Tahoe](https://github.com/aerhazu/Hackintosh-ThinkPad-T480s/blob/main/Docs/General-Guide.md) (26.5.x)
 - SMBIOS: `MacBookPro16,4`
-[Last](https://www.reddit.com/r/hackintosh/comments/1l7dc62/next_stop_macos_26_tahoe/) & latest macOS available for Hackintosh systems. Recommended for users with a stable Sequoia build. Upgrade only if required by your workflow or if you intend to maintain a current EFI or you simply just want to.
+[Last](https://www.reddit.com/r/hackintosh/comments/1l7dc62/next_stop_macos_26_tahoe/) & latest macOS available for Hackintosh systems. Upgrade only if required by your workflow or if you intend to maintain a current EFI or you simply just want to.
 
 ---
 
@@ -87,34 +87,34 @@ Most performant & efficient macOS for Hackintosh systems. Highly recommended as 
 
 <details><summary>Click to see more</summary>
 
-| Menu Path |                                                    Setting |
-|:----------|-----------------------------------------------------------:|
-| Config > USB > Always On USB |                                               **Disabled** |
-| Config > Keyboard/Mouse > Trackpoint |                                       **Enabled/Disabled** |
-| Config > Keyboard/Mouse > Trackpad |                                                **Enabled** |
-| Config > Keyboard/Mouse > Fn and Ctrl Key swap |                                               **Disabled** |
-| Config > Keyboard/Mouse > Fn Sticky Key |                                               **Disabled** |
-| Config > Keyboard/Mouse > F1-F12 as Primary Function |                                               **Disabled** |
-| Config > Display > Boot Display Device |                                           **Thinkpad LCD** |
-| Config > Display > Shared Display Priority |                                             **USB Type-C** |
-| Config > Display > Total Graphics Memory |                                                  **512MB** |
-| Config > Power > Intel SpeedStep Technology |                                                **Enabled** |
-| Config > CPU > Intel Hyper-Threading Technology |                                                **Enabled** |
-| Config > Thunderbolt 3 > Thunderbolt BIOS Assist Mode |                                               **Disabled** |
-| Config > Thunderbolt 3 > Security Level |                                            **No Security** |
-| Config > Thunderbolt 3 > Wake by Thunderbolt 3 |                                                **Enabled** |
-| Config > Thunderbolt 3 > Support in Pre Boot Environment |                                                **Enabled** |
-| Security > Security Chip | **Disabled**<br/>*(Enable if dualbooting<br/>with Windows* |
-| Security > Memory Protection > Execution Prevention |                                                **Enabled** |
-| Security > Virtualization > Intel VT |                                                **Enabled** |
-| Security > Virtualization > Intel VT-d |                                                **Enabled** |
-| Security > I/O Port Access > Fingerprint Reader | **Disabled**<br/>*(Enable if dualbooting<br/>with Windows* |
-| Security > Secure Boot |                                               **Disabled** |
-| Security > Intel SGX |                                    **Software Controlled** |
-| Security > Device Guard |                                               **Disabled** |
-| Boot > UEFI/Legacy Boot |                                                   **Both** |
-| Boot > UEFI/Legacy Boot Priority |                                           **Legacy First** |
-| Boot > CSM Support |                                                    **Yes** |
+| Menu Path |                                                        Setting |
+|:----------|---------------------------------------------------------------:|
+| Config > USB > Always On USB | **Enabled**<br/>*(Required for Thunderbolt<br/>port to work!)* |
+| Config > Keyboard/Mouse > Trackpoint |                                           **Enabled/Disabled** |
+| Config > Keyboard/Mouse > Trackpad |                                                    **Enabled** |
+| Config > Keyboard/Mouse > Fn and Ctrl Key swap |                                                   **Disabled** |
+| Config > Keyboard/Mouse > Fn Sticky Key |                                                   **Disabled** |
+| Config > Keyboard/Mouse > F1-F12 as Primary Function |                                                   **Disabled** |
+| Config > Display > Boot Display Device |                                               **Thinkpad LCD** |
+| Config > Display > Shared Display Priority |                                                 **USB Type-C** |
+| Config > Display > Total Graphics Memory |                                                      **512MB** |
+| Config > Power > Intel SpeedStep Technology |                                                    **Enabled** |
+| Config > CPU > Intel Hyper-Threading Technology |                                                    **Enabled** |
+| Config > Thunderbolt 3 > Thunderbolt BIOS Assist Mode |                                                   **Disabled** |
+| Config > Thunderbolt 3 > Security Level |                                                **No Security** |
+| Config > Thunderbolt 3 > Wake by Thunderbolt 3 |                                                    **Enabled** |
+| Config > Thunderbolt 3 > Support in Pre Boot Environment |                                                    **Enabled** |
+| Security > Security Chip |     **Disabled**<br/>*(Enable if dualbooting<br/>with Windows* |
+| Security > Memory Protection > Execution Prevention |                                                    **Enabled** |
+| Security > Virtualization > Intel VT |                                                    **Enabled** |
+| Security > Virtualization > Intel VT-d |                                                    **Enabled** |
+| Security > I/O Port Access > Fingerprint Reader |    **Disabled**<br/>*(Enable if dualbooting<br/>with Windows)* |
+| Security > Secure Boot |                                                   **Disabled** |
+| Security > Intel SGX |                                        **Software Controlled** |
+| Security > Device Guard |                                                   **Disabled** |
+| Boot > UEFI/Legacy Boot |                                                       **Both** |
+| Boot > UEFI/Legacy Boot Priority |                                               **Legacy First** |
+| Boot > CSM Support |                                                        **Yes** |
 
 </details>
 
