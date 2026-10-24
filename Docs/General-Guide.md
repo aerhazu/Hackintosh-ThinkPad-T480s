@@ -117,7 +117,7 @@ See [BIOS Settings](#-bios-settings) section below.
 </details>
 
 ### 4. Post-Install
-See **[Post-Install Guide]()** for:
+See **[Post-Install Guide](https://github.com/aerhazu/Hackintosh-ThinkPad-T480s/blob/main/Docs/Post-Install.md)** for:
 - Boot Chime
 - Undervolting setup
 - Display scaling (HiDPI / BetterDisplay)
@@ -130,34 +130,34 @@ See **[Post-Install Guide]()** for:
 
 ## 🪛 BIOS Settings
 
-| Menu Path | Setting |
-|:----------|--------:|
-| Config > USB > Always On USB | **Disabled** |
-| Config > Keyboard/Mouse > Trackpoint | **Enabled** |
-| Config > Keyboard/Mouse > Trackpad | **Enabled** |
-| Config > Keyboard/Mouse > Fn and Ctrl Key swap | **Disabled** |
-| Config > Keyboard/Mouse > Fn Sticky Key | **Disabled** |
-| Config > Keyboard/Mouse > F1-F12 as Primary Function | **Disabled** |
-| Config > Display > Boot Display Device | **Thinkpad LCD** |
-| Config > Display > Shared Display Priority | **USB Type-C** |
-| Config > Display > Total Graphics Memory | **512MB** |
-| Config > Power > Intel SpeedStep Technology | **Enabled** |
-| Config > CPU > Intel Hyper-Threading Technology | **Enabled** |
-| Config > Thunderbolt 3 > Thunderbolt BIOS Assist Mode | **Enabled** |
-| Config > Thunderbolt 3 > Security Level | **No Security** |
-| Config > Thunderbolt 3 > Wake by Thunderbolt 3 | **Enabled** |
-| Config > Thunderbolt 3 > Support in Pre Boot Environment | **Enabled** |
-| Security > Security Chip | **Disabled** |
-| Security > Memory Protection > Execution Prevention | **Enabled** |
-| Security > Virtualization > Intel VT | **Enabled** |
-| Security > Virtualization > Intel VT-d | **Enabled** |
-| Security > I/O Port Access > Fingerprint Reader | **Disabled** |
-| Security > Secure Boot | **Disabled** |
-| Security > Intel SGX | **Software Controlled** |
-| Security > Device Guard | **Disabled** |
-| Boot > UEFI/Legacy Boot | **Both** |
-| Boot > UEFI/Legacy Boot Priority | **Legacy First** |
-| Boot > CSM Support | **Yes** |
+| Menu Path |                                                     Setting |
+|:----------|------------------------------------------------------------:|
+| Config > USB > Always On USB |   **Enabled**<br/>*(Required for Thunderbolt<br/>port to work!)* |
+| Config > Keyboard/Mouse > Trackpoint |                                        **Enabled/Disabled** |
+| Config > Keyboard/Mouse > Trackpad |                                                 **Enabled** |
+| Config > Keyboard/Mouse > Fn and Ctrl Key swap |                                                **Disabled** |
+| Config > Keyboard/Mouse > Fn Sticky Key |                                                **Disabled** |
+| Config > Keyboard/Mouse > F1-F12 as Primary Function |                                                **Disabled** |
+| Config > Display > Boot Display Device |                                            **Thinkpad LCD** |
+| Config > Display > Shared Display Priority |                                              **USB Type-C** |
+| Config > Display > Total Graphics Memory |                                                   **512MB** |
+| Config > Power > Intel SpeedStep Technology |                                                 **Enabled** |
+| Config > CPU > Intel Hyper-Threading Technology |                                                 **Enabled** |
+| Config > Thunderbolt 3 > Thunderbolt BIOS Assist Mode |                                                **Disabled** |
+| Config > Thunderbolt 3 > Security Level |                                             **No Security** |
+| Config > Thunderbolt 3 > Wake by Thunderbolt 3 |                                                 **Enabled** |
+| Config > Thunderbolt 3 > Support in Pre Boot Environment |                                                 **Enabled** |
+| Security > Security Chip |  **Disabled**<br/>*(Enable if dualbooting<br/>with Windows* |
+| Security > Memory Protection > Execution Prevention |                                                 **Enabled** |
+| Security > Virtualization > Intel VT |                                                 **Enabled** |
+| Security > Virtualization > Intel VT-d |                                                 **Enabled** |
+| Security > I/O Port Access > Fingerprint Reader | **Disabled**<br/>*(Enable if dualbooting<br/>with Windows)* |
+| Security > Secure Boot |                                                **Disabled** |
+| Security > Intel SGX |                                     **Software Controlled** |
+| Security > Device Guard |                                                **Disabled** |
+| Boot > UEFI/Legacy Boot |                                                    **Both** |
+| Boot > UEFI/Legacy Boot Priority |                                            **Legacy First** |
+| Boot > CSM Support |                                                     **Yes** |
 
 ---
 
